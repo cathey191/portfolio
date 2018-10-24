@@ -106,6 +106,10 @@ body {
   background-color: #ced6e0;
 }
 
+.itemTitle, .itemType {
+  font-size: 1em;
+}
+
 .itemBottom {
   width: 300px;
   height: 300px;
@@ -113,18 +117,35 @@ body {
 }
 
 .itemLangauge {
-  z-index: 5;
+  width: 85%;
+  text-align: right;
+  padding: 10px;
+  float: right;
 }
 
 .itemImg {
   width: inherit;
   height: inherit;
-  z-index: 100;
+  z-index: 50;
   position: absolute;
 }
 
 .itemImg:hover {
-  transform: rotate(20deg);
-  transform-origin: top left;
+  transform: rotate(25deg);
+  transform-origin: 5px 5px;
   -webkit-transition: -webkit-transform 1s
+}
+
+.itemPin {
+  background-color: red;
+  z-index: 100;
+  position: absolute;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+/* Random */
+.clear {
+  clear: both;
 }
