@@ -108,12 +108,15 @@ body {
 
 .itemTitle, .itemType {
   font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .itemBottom {
   width: 300px;
   height: 300px;
   background-color: #ced6e0;
+  position: relative;
 }
 
 .itemLangauge {
@@ -131,21 +134,55 @@ body {
 }
 
 .itemImg:hover {
-  transform: rotate(25deg);
-  transform-origin: 5px 5px;
-  -webkit-transition: -webkit-transform 1s
+  transform: rotate(25deg); /*when using transform you need to use the below as well*/
+	-webkit-transform: rotate(25deg); /*safari*/
+	-ms-transform: rotate(25deg); /*IE 9*/
+	-moz-transform: rotate(25deg); /*firefox*/
+  transform-origin: 15px 15px;
+  -webkit-transition: -webkit-transform 1.5s;
 }
 
 .itemPin {
-  background-color: red;
+  background-color: #B73535;
   z-index: 100;
   position: absolute;
+  top: 10px;
   border-radius: 5px;
   width: 10px;
   height: 10px;
 }
 
+.pinLeft {
+  left: 10px;
+}
+
+.pinRight {
+  right: 10px;
+}
+
+.itemLive {
+  position: absolute;
+  z-index: 99;
+  top: 0px;
+  left: 0px;
+  background-color: #E09A9A;
+  padding: 0.5em 0.5em 0.5em 2em;
+  border-radius: 0 0 1em 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* Random */
 .clear {
   clear: both;
+}
+
+.iconTemp {
+  border: black 1px solid;
+  width: 1em;
+  height: 1em;
+}
+
+.yellow {
+  background-color: #D1B83C;
 }
