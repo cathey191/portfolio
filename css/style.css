@@ -1,3 +1,4 @@
+/* Restyle */
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -11,6 +12,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+/* Page Layout */
 .container {
   width: 100vw;
   max-width: 1000px;
@@ -34,8 +36,10 @@ body {
   width: 100%;
   height: 70%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 20px;
 }
 
 .porLink {
@@ -68,6 +72,7 @@ body {
   font-size: 3em;
 }
 
+/* Icons */
 .navIcon{
   height: 100px;
 }
@@ -87,4 +92,39 @@ body {
 
 .basicBtn:hover {
   background-color: #ced6e0;
+}
+
+/* Item */
+.item {
+  margin-top: 20px;
+}
+
+.itemTop {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ced6e0;
+}
+
+.itemBottom {
+  width: 300px;
+  height: 300px;
+  background-color: #ced6e0;
+}
+
+.itemLangauge {
+  z-index: 5;
+}
+
+.itemImg {
+  width: inherit;
+  height: inherit;
+  z-index: 100;
+  position: absolute;
+}
+
+.itemImg:hover {
+  transform: rotate(20deg);
+  transform-origin: top left;
+  -webkit-transition: -webkit-transform 1s
 }
