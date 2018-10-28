@@ -13,7 +13,7 @@
       <div class="content">
         <div class="item">
           <div class="itemTop">
-            <a href="project.html" class="itemTitle">Wellington On A Plate</a>
+            <a href="project.php" class="itemTitle">Wellington On A Plate</a>
             <div class="iconTemp"></div>
             <!-- <h3 class="itemType">Marked Assignment</h3> -->
           </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="item">
           <div class="itemTop">
-            <a href="project.html" class="itemTitle">Vehicle Rental</a>
+            <a href="project.php" class="itemTitle">Vehicle Rental</a>
             <div class="iconTemp"></div>
           </div>
           <div class="itemBottom">
@@ -39,7 +39,7 @@
         </div>
         <div class="item">
           <div class="itemTop">
-            <a href="project.html" class="itemTitle">Tic Tac Toe</a>
+            <a href="project.php" class="itemTitle">Tic Tac Toe</a>
             <div class="iconTemp"></div>
           </div>
           <div class="itemBottom">
@@ -50,7 +50,7 @@
         </div>
         <div class="item">
           <div class="itemTop">
-            <a href="project.html" class="itemTitle">Hospitality Digital Ordering</a>
+            <a href="project.php" class="itemTitle">Hospitality Digital Ordering</a>
             <div class="iconTemp"></div>
           </div>
           <div class="itemBottom">
