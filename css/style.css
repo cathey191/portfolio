@@ -162,6 +162,10 @@ body {
 	-moz-transform: rotate(25deg); /*firefox*/
   transform-origin: 15px 15px;
   -webkit-transition: -webkit-transform 1.5s;
+
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .itemPin {
@@ -172,6 +176,10 @@ body {
   border-radius: 5px;
   width: 10px;
   height: 10px;
+
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .pinLeft {
@@ -192,6 +200,10 @@ body {
   border-radius: 0 0 1em 0;
   font-weight: bold;
   text-decoration: none;
+
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 /* Random */
