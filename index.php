@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Cat Clague</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Satisfy|Roboto:900" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+<?php
+  $page = 'Catherine Clague';
+
+  require ('templates/header.php');
+?>
+
     <div class="container">
       <div class="nav">
         <img class="navIcon" src="img/caticon.svg" alt="Cat Image">
         <h1 class="navName">Cat Clague</h1>
       </div>
-      
+
       <div class="content">
         <div class="item">
           <div class="itemTop">
@@ -67,6 +62,6 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <?php require ('templates/scripts.php'); ?>
   </body>
 </html>

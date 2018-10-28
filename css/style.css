@@ -29,11 +29,6 @@ body {
   padding: 0px 20px;
 }
 
-.porLink {
-  display: flex;
-  justify-content: center;
-}
-
 .basicBtn {
   margin: 5px;
   padding: 5px;
@@ -43,15 +38,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.link {
-  text-decoration: none;
-  color: #f1f2f6;
-}
-
-.center {
-  text-align: center;
 }
 
 /* Home Header */
@@ -100,7 +86,7 @@ body {
 
 /* Icons */
 .linkIcon {
-  height: 1em;
+  height: 0.8em;
 }
 
 .notice {
@@ -109,7 +95,7 @@ body {
 
 .behance {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 .basicBtn:hover {
@@ -165,6 +151,7 @@ body {
 
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -ms-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
@@ -206,6 +193,58 @@ body {
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
+/* Project Page */
+.projectContent {
+  width: 100%;
+  background-color: #f1f2f6;
+}
+
+.projectTitle {
+  text-align: center;
+  width: 100%;
+  margin: 75px 0px 0px 0px;
+}
+
+.projectLink {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.projectBrief {
+  padding: 0px 20px;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.projectSqu {
+  width: 50%;
+}
+
+.projectSquP {
+  padding: 20px;
+  display: flex;
+}
+
+.projectImg {
+  width: 100%;
+  height: inherit;
+  display: block;
+}
+
+.squP {
+  align-self: center;
+}
+
+.projectMainImg {
+  width: 100%;
+  display: block;
+}
+
 /* Random */
 .clear {
   clear: both;
@@ -219,4 +258,13 @@ body {
 
 .yellow {
   background-color: #D1B83C;
+}
+
+.link {
+  text-decoration: none;
+  color: #f1f2f6;
+}
+
+.center {
+  text-align: center;
 }
