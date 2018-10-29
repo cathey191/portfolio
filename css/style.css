@@ -12,6 +12,12 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+hr.something {
+  width: 100%;
+  border: 0px solid #ced6e0;
+  border-top-width: 1px;
+}
+
 /* Page Layout */
 .container {
   width: 100vw;
@@ -19,6 +25,10 @@ body {
   height: 100vh;
   margin: 0 auto;
   background-color: #f1f2f6;
+  /* background-image: url(../img/texture.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover; */
 }
 
 .content {
@@ -27,6 +37,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0px 20px;
+  background-color: #f1f2f6;
 }
 
 .basicBtn {
@@ -202,38 +213,32 @@ body {
 .projectTitle {
   text-align: center;
   width: 100%;
-  margin: 75px 0px 0px 0px;
+  margin: 20vh 0px 0px 0px;
 }
 
 .projectLink {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 .projectBrief {
-  padding: 0px 20px;
+  padding: 0px 20px 20vh 20px;
 }
 
-.projectGrid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 75px;
-}
-
-.projectSqu {
-  width: 50%;
-}
-
-.projectSquP {
-  padding: 20px;
+.projectRow {
   display: flex;
 }
 
 .projectImg {
-  width: 100%;
-  height: inherit;
   display: block;
+  height: 300px;
+  width: auto;
+}
+
+.projectDes {
+  padding: 20px;
+  display: flex;
 }
 
 .squP {
@@ -241,8 +246,11 @@ body {
 }
 
 .projectMainImg {
-  width: 100%;
+  width: inherit;
+  height: 100%;
   display: block;
+  object-position: center center;
+  object-fit: cover;
 }
 
 /* Random */
@@ -267,4 +275,8 @@ body {
 
 .center {
   text-align: center;
+}
+
+.flexLast {
+  order: 2;
 }
