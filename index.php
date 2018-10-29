@@ -5,10 +5,10 @@
 ?>
 
     <div class="container">
-      <div class="nav">
+      <a href="index.php" class="nav">
         <img class="navIcon" src="img/caticon.svg" alt="Cat Image">
         <h1 class="navName">Cat Clague</h1>
-      </div>
+      </a>
 
       <div class="content">
         <div class="item">

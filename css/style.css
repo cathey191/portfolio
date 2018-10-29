@@ -18,6 +18,10 @@ hr.something {
   border-top-width: 1px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Page Layout */
 .container {
   width: 100vw;
@@ -76,11 +80,12 @@ hr.something {
 .header {
   width: 100%;
   background-color: #ced6e0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headerGroup {
   display: flex;
-  text-decoration: none;
 }
 
 .headerName {
@@ -93,6 +98,10 @@ hr.something {
 .headerIcon{
   height: 2em;
   align-self: center;
+}
+
+.headerSign {
+  color: rgba(241, 242, 246, 0.1);
 }
 
 /* Icons */
