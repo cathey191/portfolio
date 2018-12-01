@@ -11,52 +11,41 @@
       </a>
 
       <div class="content">
-        <div class="item">
+		<div class="item">
           <div class="itemBottom">
-            <div class="itemPin pinLeft"></div>
-            <a href="https://wellington-on-a-plate.herokuapp.com/" class="itemLive">Live</a>
-            <div class="itemPin pinRight yellow"></div>
-            <img class="itemImg" src="./img/uploads/bookMonster.jpg" alt="">
-            <p class="itemLangauge">UI/UX, HTML, CSS, SASS, jQuery</p>
+            <img class="itemImg" src="./img/wrr_hf5_300px.jpg" alt="">
             <span class="clear"></span>
           </div>
           <div class="itemTop">
-            <a href="project.php" class="itemTitle">Wellington On A Plate</a>
-            <div class="iconTemp"></div>
+            <a href="wrr.php" class="itemTitle">Wordpress Rescue Theme</a>
             <!-- <h3 class="itemType">Marked Assignment</h3> -->
           </div>
         </div>
         <div class="item">
           <div class="itemBottom">
-            <div class="itemPin pinLeft"></div>
-            <img class="itemImg" src="./img/uploads/bookMonster.jpg" alt="">
-            <p class="itemLangauge">UI/UX, HTML, CSS, SASS, JS, jQuery, Bootstap, Mapbox</p>
+            <a href="https://wellington-on-a-plate.herokuapp.com/" class="itemLive">Live</a>
+            <img class="itemImg" src="./img/woap_hf1.png" alt="">
+            <span class="clear"></span>
           </div>
           <div class="itemTop">
-            <a href="project.php" class="itemTitle">Vehicle Rental</a>
-            <div class="iconTemp"></div>
+            <a href="woap.php" class="itemTitle">Wellington On A Plate</a>
+            <!-- <h3 class="itemType">Marked Assignment</h3> -->
           </div>
         </div>
         <div class="item">
           <div class="itemBottom">
-            <div class="itemPin pinLeft yellow"></div>
-            <img class="itemImg" src="./img/uploads/bookMonster.jpg" alt="">
-            <p class="itemLangauge">UI/UX, HTML, CSS, SASS, jQuery</p>
+            <img class="itemImg" src="./img/ch_hf1.png" alt="">
           </div>
           <div class="itemTop">
-            <a href="project.php" class="itemTitle">Tic Tac Toe</a>
-            <div class="iconTemp"></div>
+            <a href="choice.php" class="itemTitle">Vehicle Rental</a>
           </div>
         </div>
         <div class="item">
           <div class="itemBottom">
-            <div class="itemPin pinLeft"></div>
-            <img class="itemImg" src="./img/uploads/bookMonster.jpg" alt="">
-            <p class="itemLangauge">UI/UX, HTML, CSS, SASS, jQuery</p>
+            <img class="itemImg" src="./img/tr_hf4.png" alt="">
           </div>
           <div class="itemTop">
-            <a href="project.php" class="itemTitle">Hospitality Digital Ordering</a>
-            <div class="iconTemp"></div>
+            <a href="therealm.php" class="itemTitle">Hospitality Digital Ordering</a>
           </div>
         </div>
       </div>

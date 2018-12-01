@@ -170,24 +170,9 @@ a {
 }
 
 .itemImg {
-  width: inherit;
   height: inherit;
   z-index: 50;
   position: absolute;
-}
-
-.itemImg:hover {
-  transform: rotate(25deg); /*when using transform you need to use the below as well*/
-	-webkit-transform: rotate(25deg); /*safari*/
-	-ms-transform: rotate(25deg); /*IE 9*/
-	-moz-transform: rotate(25deg); /*firefox*/
-  transform-origin: 15px 15px;
-  -webkit-transition: -webkit-transform 1.5s;
-
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-  -ms-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .itemPin {
