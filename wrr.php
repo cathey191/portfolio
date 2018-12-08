@@ -8,7 +8,7 @@
       <?php require ('templates/nav.php'); ?>
 
       <div class="content">
-        <h2 class="projectTitle">Wellington On A Plate</h2>
+        <h2 class="projectTitle">Wordpress Rescue Theme</h2>
         <div class="projectLink">
             <a href="https://github.com/cathey191" class="link github basicBtn" target="_blank">
               <span>
